@@ -1,16 +1,16 @@
 
 
-package com.bank.app.core.core;
+package com.bank.reference.core.core;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.doReturn;
 
-import com.bank.app.core.BootstrapService;
-import com.bank.app.core.CheckIn;
-import com.bank.app.core.News;
-import com.bank.app.core.User;
-import com.bank.app.core.UserAgentProvider;
+import com.bank.reference.core.BootstrapService;
+import com.bank.reference.core.CheckIn;
+import com.bank.reference.core.News;
+import com.bank.reference.core.User;
+import com.bank.reference.core.UserAgentProvider;
 import com.github.kevinsawicki.http.HttpRequest;
 
 import java.io.BufferedReader;
@@ -26,7 +26,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
 /**
- * Unit tests of {@link com.bank.app.core.BootstrapService}
+ * Unit tests of {@link com.bank.reference.core.BootstrapService}
  */
 @RunWith(MockitoJUnitRunner.class)
 public class BootstrapServiceTest {

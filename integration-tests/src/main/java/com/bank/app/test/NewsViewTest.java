@@ -1,13 +1,13 @@
 
 
-package com.bank.app.test;
+package com.bank.reference.test;
 
-import static com.bank.app.core.Constants.Extra.NEWS_ITEM;
+import static com.bank.reference.core.Constants.Extra.NEWS_ITEM;
 import android.content.Intent;
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.bank.app.core.News;
-import com.bank.app.ui.CarouselActivity;
+import com.bank.reference.core.News;
+import com.bank.reference.ui.CarouselActivity;
 
 
 /**
@@ -16,7 +16,7 @@ import com.bank.app.ui.CarouselActivity;
 public class NewsViewTest extends ActivityInstrumentationTestCase2<CarouselActivity> {
 
     /**
-     * Create test for {@link com.bank.app.ui.CarouselActivity}
+     * Create test for {@link com.bank.reference.ui.CarouselActivity}
      */
     public NewsViewTest() {
         super(CarouselActivity.class);

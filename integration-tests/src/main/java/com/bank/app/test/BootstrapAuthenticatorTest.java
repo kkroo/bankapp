@@ -1,13 +1,18 @@
 
 
-package com.bank.app.test;
+package com.bank.reference.test;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.view.View;
 import android.widget.Button;
 
-import com.bank.app.authenticator.BootstrapAuthenticatorActivity;
-import com.bank.app.R;
+<<<<<<< Updated upstream
+import com.bank.reference.authenticator.BootstrapAuthenticatorActivity;
+import com.bank.reference.R;
+=======
+import com.bank.reference.authenticator.BootstrapAuthenticatorActivity;
+import com.bank.R;
+>>>>>>> Stashed changes
 
 
 /**
@@ -16,7 +21,7 @@ import com.bank.app.R;
 public class BootstrapAuthenticatorTest extends ActivityInstrumentationTestCase2<BootstrapAuthenticatorActivity> {
 
     /**
-     * Create test for {@link com.bank.app.authenticator.BootstrapAuthenticatorActivity}
+     * Create test for {@link com.bank.reference.authenticator.BootstrapAuthenticatorActivity}
      */
     public BootstrapAuthenticatorTest() {
         super(BootstrapAuthenticatorActivity.class);

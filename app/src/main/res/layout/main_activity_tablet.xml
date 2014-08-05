@@ -8,7 +8,7 @@
     <fragment
             android:layout_width="@dimen/navigation_drawer_width"
             android:layout_height="match_parent"
-            android:name="com.bank.app.ui.NavigationDrawerFragment" />
+            android:name="com.bank.reference.ui.NavigationDrawerFragment" />
 
     <LinearLayout
             android:id="@+id/container"

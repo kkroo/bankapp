@@ -6,6 +6,9 @@ import android.app.Application;
 import android.app.Instrumentation;
 import android.content.Context;
 
+import com.bank.reference.Injector;
+import com.bank.reference.RootModule;
+
 /**
  * Bank App application
  */

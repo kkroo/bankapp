@@ -3,12 +3,11 @@ package com.bank.app.ui;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import com.bank.app.Injector;
+import com.bank.reference.Injector;
 import com.squareup.otto.Bus;
 
 import javax.inject.Inject;
 
-import butterknife.InjectView;
 import butterknife.Views;
 
 /**

@@ -1,12 +1,12 @@
 
 
-package com.bank.app.core.core;
+package com.bank.reference.core.core;
 
 import static org.hamcrest.Matchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
-import com.bank.app.core.BootstrapService;
-import com.bank.app.core.User;
+import com.bank.reference.core.BootstrapService;
+import com.bank.reference.core.User;
 
 import java.util.List;
 

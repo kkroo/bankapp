@@ -1,16 +1,16 @@
 
 
-package com.bank.app.test;
+package com.bank.reference.test;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.app.Instrumentation;
 import android.content.Context;
 import android.util.Log;
-import static com.bank.app.core.Constants.Auth.*;
+import static com.bank.reference.core.Constants.Auth.*;
 
-import com.bank.app.tests.R;
-import com.bank.app.util.Ln;
+import com.bank.reference.tests.R;
+import com.bank.reference.util.Ln;
 
 
 /**

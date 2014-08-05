@@ -1,10 +1,10 @@
 
 
-package com.bank.app.test;
+package com.bank.reference.test;
 
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.bank.app.ui.CarouselActivity;
+import com.bank.reference.ui.CarouselActivity;
 
 
 /**

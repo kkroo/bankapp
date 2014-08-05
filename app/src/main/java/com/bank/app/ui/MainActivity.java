@@ -13,13 +13,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 
-import com.bank.app.BootstrapServiceProvider;
-import com.bank.app.R;
-import com.bank.app.core.BootstrapService;
-import com.bank.app.events.NavItemSelectedEvent;
-import com.bank.app.util.Ln;
-import com.bank.app.util.SafeAsyncTask;
-import com.bank.app.util.UIUtils;
+import com.bank.reference.BootstrapServiceProvider;
+import com.bank.R;
+import com.bank.reference.core.BootstrapService;
+import com.bank.reference.events.NavItemSelectedEvent;
+import com.bank.reference.ui.BootstrapTimerActivity;
+import com.bank.reference.ui.CarouselFragment;
+import com.bank.reference.ui.NavigationDrawerFragment;
+import com.bank.reference.util.Ln;
+import com.bank.reference.util.SafeAsyncTask;
+import com.bank.reference.util.UIUtils;
 import com.squareup.otto.Subscribe;
 
 import javax.inject.Inject;
@@ -31,7 +34,7 @@ import butterknife.Views;
  * Initial activity for the application.
  *
  * If you need to remove the authentication from the application please see
- * {@link com.bank.app.authenticator.ApiKeyProvider#getAuthKey(android.app.Activity)}
+ * {@link com.bank.reference.authenticator.ApiKeyProvider#getAuthKey(android.app.Activity)}
  */
 public class MainActivity extends BootstrapFragmentActivity {
 
