@@ -2,8 +2,8 @@
 
 <resources>
 
-    <color name="text">#FCFCFC</color>
-    <color name="text_light">#999999</color>
+    <color name="text">#ff646464</color>
+    <color name="text_light">#ff999999</color>
     <color name="text_inverted">#FFFFFF</color>
     <color name="text_title">#DFDFDF</color>
     <color name="pager_footer">#1fb6ed</color>
@@ -19,18 +19,18 @@
     <color name="header_background_end">#C3C3C3</color>
     <color name="header_background_top">#F9F9F9</color>
     <color name="header_background_bottom">#A7A7A7</color>
-    <color name="actionbar_background_start">#272727</color>
-    <color name="actionbar_background_end">#1A1A1A</color>
+    <color name="actionbar_background_start">#ff493534</color>
+    <color name="actionbar_background_end">#ff493534</color>
     <color name="bootstrap_divider_top">#000000</color>
     <color name="bootstrap_divider_bottom">#5A5A5A</color>
-    <color name="main_background_start">#2E2E2E</color>
-    <color name="main_background_end">#2C2C2C</color>
-    <color name="button_background_enabled_start">#1fb6ed</color>
-    <color name="button_background_enabled_end">#1c9ac8</color>
+    <color name="main_background_start">#ffffffff</color>
+    <color name="main_background_end">#ffffffff</color>
+    <color name="button_background_enabled_start">#fff0f0f0</color>
+    <color name="button_background_enabled_end">#ffcdcdcd</color>
     <color name="button_background_pressed_start">#f76500</color>
     <color name="button_background_pressed_end">#fb812c</color>
-    <color name="edit_text_background_start">#EFF6FF</color>
-    <color name="edit_text_background_end">#FBFDFF</color>
+    <color name="edit_text_background_start">#FFFFFFFF</color>
+    <color name="edit_text_background_end">#FFFFFFFF</color>
     <color name="button_background_disabled_start">#7b7b7b</color>
     <color name="button_background_disabled_end">#646464</color>
     <color name="text_shadow">#000000</color>
@@ -44,4 +44,5 @@
     <color name="dark_grey">#1f1f1f</color>
     <color name="navigation_drawer_item_separator">#c2c2c2</color>
 
+    <color name="login_background">#ff393939</color>
 </resources>

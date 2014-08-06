@@ -136,8 +136,9 @@ public class BootstrapAuthenticatorActivity extends ActionBarAccountAuthenticato
 
         Views.inject(this);
 
-        emailText.setAdapter(new ArrayAdapter<String>(this,
-                simple_dropdown_item_1line, userEmailAccounts()));
+        // We don't want to save logins, rly..
+        //emailText.setAdapter(new ArrayAdapter<String>(this,
+                //simple_dropdown_item_1line, userEmailAccounts()));
 
         passwordText.setOnKeyListener(new OnKeyListener() {
 
@@ -166,19 +167,19 @@ public class BootstrapAuthenticatorActivity extends ActionBarAccountAuthenticato
         emailText.addTextChangedListener(watcher);
         passwordText.addTextChangedListener(watcher);
 
-        final TextView signUpText = (TextView) findViewById(id.tv_signup);
+/*        final TextView signUpText = (TextView) findViewById(id.tv_signup);
         signUpText.setMovementMethod(LinkMovementMethod.getInstance());
-        signUpText.setText(Html.fromHtml(getString(string.signup_link)));
+        signUpText.setText(Html.fromHtml(getString(string.signup_link)));*/
     }
 
-    private List<String> userEmailAccounts() {
+/*    private List<String> userEmailAccounts() {
         final Account[] accounts = accountManager.getAccountsByType("com.google");
         final List<String> emailAddresses = new ArrayList<String>(accounts.length);
         for (final Account account : accounts) {
             emailAddresses.add(account.name);
         }
         return emailAddresses;
-    }
+    }*/
 
     private TextWatcher validationTextWatcher() {
         return new TextWatcherAdapter() {
