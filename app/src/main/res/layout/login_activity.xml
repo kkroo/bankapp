@@ -108,16 +108,58 @@
     </RelativeLayout>
 
 
-    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/promos_grid"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:numColumns="auto_fit"
-        android:columnWidth="150dip"
-        android:horizontalSpacing="10dp"
-        android:verticalSpacing="10dp"
-        android:gravity="center"
-        android:stretchMode="columnWidth"
-        android:layout_margin="10dip"></GridView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <Button
+        android:layout_width="@dimen/login_box_width"
+        android:layout_height="@dimen/login_box_height"
+        android:padding="@dimen/login_box_padding"
+
+        android:text="ATM Locator"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView" />
+    <Button
+        android:layout_width="@dimen/login_box_width"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/icon"
+        android:drawablePadding="15dp"
+        android:text="Home Loans"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/icon"
+        android:drawablePadding="15dp"
+        android:text="Make appointment"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textView3" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_alignBottom="@+id/textView2"
+        android:drawableTop="@drawable/icon"
+        android:drawablePadding="15dp"
+        android:text="Make Appointment"
+        android:layout_below="@+id/textView"
+
+        android:id="@+id/textView4" />
+
+</RelativeLayout>
+
 
 </LinearLayout>

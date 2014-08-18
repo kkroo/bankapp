@@ -17,6 +17,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Html;
+import android.widget.AdapterView;
 import android.text.TextWatcher;
 import android.text.method.LinkMovementMethod;
 import android.view.KeyEvent;
@@ -26,9 +27,11 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
-
+import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
 import com.bank.reference.Injector;
 import com.bank.R;
 import com.bank.R.id;
@@ -133,10 +136,21 @@ public class BootstrapAuthenticatorActivity extends ActionBarAccountAuthenticato
         requestNewAccount = email == null;
 
         setContentView(layout.login_activity);
-
+       /* String [] titles = {"hey", "there", "pretty", "young", "thing"};
+        ArrayAdapter adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, titles);
+        GridView grid = (GridView) findViewById(id.promos_grid);
+        grid.setAdapter(adapter);
+        grid.setOnItemClickListener(new OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                Toast.makeText(getApplicationContext(),
+                        ((TextView) v).getText(), Toast.LENGTH_SHORT).show();
+            }
+        });*/
         Views.inject(this);
 
-        // We don't want to save logins, rly..
+        // We don't want to save login rly..
         //emailText.setAdapter(new ArrayAdapter<String>(this,
                 //simple_dropdown_item_1line, userEmailAccounts()));
 
